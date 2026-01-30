@@ -1,8 +1,11 @@
 # COMBINATION-SUM 
-- TC its no 2^n !!! , ie Actually O(N ^ (T/M + 1)) , SC = O(T/M) due to recusion stack depth
-- M => mini ele in nums , T-> target , Recursion stack depth at max = T/M and BRANCHING FACTOR  = N , ie becoz at every level we have N possible choice {0...n-1} any element
-- At every level when target = 0 , so curr->copied to result taking O(T/M) extra at all braches so the total power = T/M + 1 with a braching factor of N => `O(N ^ (T/M + 1))`
-  
+- TC : `O( N ^ (T/M + 1))` , sc = O(T/M)
+- T = TARGET , M = MIN ELEMENT OF NUMs , Now here branching factor is N as every recursive depth
+- D = T/M at max , so at any D depth N^D nodes as all levels , d=0 , N^0 {ie 1node }, d=1 , {N nodes} , d=2 {N^2 .. corresding to all prev level node} , so from every node of prev level , N branches of N nodes are being branched out so `{1 , n , n^2 , n^3 ,....}` all nodes added give GP sum , and +1 for copying the curr->result , when match is found
 - Do:https://leetcode.com/problems/combination-sum/submissions/1901943012/?envType=problem-list-v2&envId=rr2ss0g5
 
+
 # COMBINATION SUM2 
+- tc = (2^N) as any element can atmost be taken at once , incluce / exclude so comb for n elements : `2 x 2 x 2 x ....`
+- sc = O(N) recursion stack  
+- DO : https://leetcode.com/problems/combination-sum-ii/?envType=problem-list-v2&envId=rr2ss0g5
