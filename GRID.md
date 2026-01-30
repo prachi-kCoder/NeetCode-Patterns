@@ -12,3 +12,8 @@
 - `Donot mark blindly the nbr cells` , do check i should be 1 -> 2 , never a landmines itself should be marked as 2 , leading to loss to landmines 
 - Do level wise bfs with marking as 0 with vis , and donot 
 - Do :https://www.geeksforgeeks.org/problems/find-shortest-safe-route-in-a-matrix/1
+
+
+# 0-1 BFS :
+- can use djiktra but on o,1 cost tradeoff use deq , with LOWER COST entry at front and high cost at back, , get O(V + E) tc where V = NXM, e-> 4 for each . and every cell is visited at once and low cost , monotonic dq keep sorted entries as per cost , as any cel can have a diff of at most x , x+1 so 0/1 entry is enough! 
+- https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/
