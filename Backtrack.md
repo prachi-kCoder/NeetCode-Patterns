@@ -12,8 +12,9 @@
 
 # GENERATE PARENTHESIS
 - nth Catalan Number {1/(n+1) (2n)C(n)}-> All valid parenthesis, where open - closing parenthesis constraint is followed, as we can't blindly generate all permutation eg ))(( are invalids .
-- TC = O(4^n / sqrt(n) ) -> because catalan nos grows -> 4^N / n*sqrt(n)  * O(n) for copying string so simplies to-> 4^n / sqrt(n) ,you can say O(4^n * n) in interview as well for loose bound
-- SC = O(n)
+- TC = `O(4^n / sqrt(n))` -> because catalan nos grows -> `4^n / n*sqrt(n)  * O(n)` for `copying string` so simplies to-> 4^n / sqrt(n) ,you can say `O(4^n * n)` in interview as well for loose bound
+- https://leetcode.com/problems/generate-parentheses/description/?envType=problem-list-v2&envId=rr2ss0g5
+- SC = O(n) , recu stack depht O(2N) 
 
 # LETTER-COMBINATIONS
 - TC = O(3^N x 4^m x L) where N+M = L length of digits , 3/4 choices & all comb: `3^n + 4^m x O(L)` O(L)-> string copying in result for all combination
