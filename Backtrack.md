@@ -9,3 +9,8 @@
 - tc = (2^N) as any element can atmost be taken at once , incluce / exclude so comb for n elements : `2 x 2 x 2 x ....`
 - sc = O(N) recursion stack  
 - DO : https://leetcode.com/problems/combination-sum-ii/?envType=problem-list-v2&envId=rr2ss0g5
+
+# LETTER-COMBINATIONS
+- TC = O(3^N x 4^m x L) where N+M = L length of digits , 3/4 choices & all comb: `3^n + 4^m x O(L)` O(L)-> string copying in result for all combination
+- SC= O(N)
+- Do : https://leetcode.com/problems/letter-combinations-of-a-phone-number/?envType=problem-list-v2&envId=rr2ss0g5
