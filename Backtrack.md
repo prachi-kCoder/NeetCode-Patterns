@@ -25,6 +25,10 @@
 - TC : O(N x N!) donot forget the time to copy array , you can do it using swap-based backtracking or bitmask + backtracking approach both! , sc = O(N)
 - Do : https://leetcode.com/problems/permutations/?envType=problem-list-v2&envId=rr2ss0g5
 
+# N-QUEENS 
+- left_dia , right_dia  masks to be managed rightly 
+- dO :https://leetcode.com/problems/n-queens/submissions/1904468182/?envType=problem-list-v2&envId=rr2ss0g5
+  
 # LETTER-COMBINATIONS
 - TC = O(3^N x 4^m x L) where N+M = L length of digits , 3/4 choices & all comb: `3^n + 4^m x O(L)` O(L)-> string copying in result for all combination
 - SC= O(N)
