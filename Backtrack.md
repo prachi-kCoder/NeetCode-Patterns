@@ -16,6 +16,11 @@
 - https://leetcode.com/problems/generate-parentheses/description/?envType=problem-list-v2&envId=rr2ss0g5
 - SC = O(n) , recu stack depht O(2N) 
 
+# SUDOKU SOLVER
+- You always forget : 3 rows for row,col,box : to keep the mask of rows,cols,boxes separate !
+- Do :https://leetcode.com/problems/valid-sudoku/?envType=problem-list-v2&envId=rr2ss0g5
+- TC : O(9x9) , SC = O(27) nearly constant space for bitmasks .
+  
 # LETTER-COMBINATIONS
 - TC = O(3^N x 4^m x L) where N+M = L length of digits , 3/4 choices & all comb: `3^n + 4^m x O(L)` O(L)-> string copying in result for all combination
 - SC= O(N)
