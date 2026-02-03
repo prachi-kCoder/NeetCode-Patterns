@@ -1,3 +1,8 @@
+# GRID-GAME {2-player-2-col {game}} :
+- `DONOT DO THIS MISTAKE AGAIN!!!`
+- if game theory says , if player 1 is aiming to minimise the player2 score , so focus on minimising the score of player 2 , not on maximising the score of player 1 :
+- dO IT :https://leetcode.com/problems/grid-game/
+
 
 # ROTATE IMAGE :
 - Don't make it complex : 2 simple steps : take `transpose` + reverse `all rows`
