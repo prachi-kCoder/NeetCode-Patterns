@@ -29,5 +29,6 @@
 - s1 - s2 = diff , so s1 + s2 = total_sum , so s1= target = (total_sum - diff)/2 ;
 - you can handle zeroes sep or standard dp both works fine as every zero can make in total 2^Z combination of z for all subsets formed !
 - do :https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1
+
 # edit distance;
 - 1d pass , {single pass !} varations : https://leetcode.com/problems/edit-distance/submissions/1902002337/?envType=problem-list-v2&envId=rr2ss0g5
