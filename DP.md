@@ -15,8 +15,10 @@
 # STRIVER DP - STRING :
 ### STRING - DP
 - `LONGEST PALINDROMIC SUBSEQ` : do : https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1906597968/
-- use this to compute insertion to get palindrome , ie` n-LPS` insertion to make to get complete string changed to palindrome 
-- `MINIMUM INSERTION TO MAKE STRING PALINDROME` : DO : https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/
+  
+- `MINIMUM INSERTION TO MAKE STRING PALINDROME` :
+- method1 : `n - LPS(s)` ,  method2 = `LCS(s , reverse(s))` : tc : O(N^2) , sc = O(N) for both 
+- DO : https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/
 
 ####  STRANGE-PRINTER : 
 - Here match the first char s[i] to any other in s[i+1 to j] so that you don't need to pay for the front character , and worst case is if not matched so pay  + 1 + dp[i+1][j] 
