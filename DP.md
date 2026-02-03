@@ -12,10 +12,12 @@
 - Here take all set , all combinations was need so NO sorting but in case permutation would have been asked so sorting become imp !
 - Do:https://leetcode.com/problems/coin-change-ii/?envType=problem-list-v2&envId=rr2ss0g5
   
-# STRINVER LAST :
+# STRIVER DP - STRING :
 ### STRING - DP
-- MINIMUM INSERTION TO MAKE STRING PALINDROME : dO : https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/
-- 
+- `LONGEST PALINDROMIC SUBSEQ` : do : https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1906597968/
+- use this to compute insertion to get palindrome , ie` n-LPS` insertion to make to get complete string changed to palindrome 
+- `MINIMUM INSERTION TO MAKE STRING PALINDROME` : DO : https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/
+
 ####  STRANGE-PRINTER : 
 - Here match the first char s[i] to any other in s[i+1 to j] so that you don't need to pay for the front character , and worst case is if not matched so pay  + 1 + dp[i+1][j] 
 - https://leetcode.com/problems/strange-printer/
