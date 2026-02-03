@@ -25,6 +25,10 @@
 - https://leetcode.com/problems/strange-printer/
 
 
+## MAXIMAL RECTANGLE
+- simple approach is `max-rect histogram` just keep the consecutive 1's count while incrementing i, giveing the hts of towers to get max-rect area , O(NXM) tc 
+- DO :https://leetcode.com/problems/maximal-rectangle/
+
 # SUBSET Array to get diff from 2 subset partioning types
 - s1 - s2 = diff , so s1 + s2 = total_sum , so s1= target = (total_sum - diff)/2 ;
 - you can handle zeroes sep or standard dp both works fine as every zero can make in total 2^Z combination of z for all subsets formed !
