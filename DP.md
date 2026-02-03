@@ -12,6 +12,7 @@
 - Here take all set , all combinations was need so NO sorting but in case permutation would have been asked so sorting become imp !
 - Do:https://leetcode.com/problems/coin-change-ii/?envType=problem-list-v2&envId=rr2ss0g5
   
+------------------------------------------------------------------------------------------------------------------------------
 # STRIVER DP - STRING :
 ### STRING - DP
 - `LONGEST PALINDROMIC SUBSEQ` : do : https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1906597968/
@@ -24,10 +25,12 @@
 - Here match the first char s[i] to any other in s[i+1 to j] so that you don't need to pay for the front character , and worst case is if not matched so pay  + 1 + dp[i+1][j] 
 - https://leetcode.com/problems/strange-printer/
 
-
-## MAXIMAL RECTANGLE
+------------------------------------------------------------------------------------------------------------------------------
+## MAXIMAL RECTANGLE ,{MATRIX & DP , SQUARE }
 - simple approach is `max-rect histogram` just keep the consecutive 1's count while incrementing i, giveing the hts of towers to get max-rect area , O(NXM) tc 
 - DO :https://leetcode.com/problems/maximal-rectangle/
+- Do :https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+
 
 # SUBSET Array to get diff from 2 subset partioning types
 - s1 - s2 = diff , so s1 + s2 = total_sum , so s1= target = (total_sum - diff)/2 ;
