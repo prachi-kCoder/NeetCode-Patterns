@@ -39,3 +39,7 @@
 - TC = O(3^N x 4^m x L) where N+M = L length of digits , 3/4 choices & all comb: `3^n + 4^m x O(L)` O(L)-> string copying in result for all combination
 - SC= O(N)
 - Do : https://leetcode.com/problems/letter-combinations-of-a-phone-number/?envType=problem-list-v2&envId=rr2ss0g5
+
+# WORD-SEACH
+- HERE marking the visited char is very important and prune by reversing string in case the last character are appearing lesser , TC = O(3^L x (NXM)) SC = O(L) L-> length of word 
+- Do :https://leetcode.com/problems/word-search/submissions/1907939844/?envType=problem-list-v2&envId=rr2ss0g5
