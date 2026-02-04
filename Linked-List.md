@@ -1,4 +1,9 @@
-
+## CLONE LL
+- 3PHASE IMPLEMENTATION :
+- `1) clone creation & weave` , `2) random pts connection {it can also point backward so need to be done once LL formed}`, `3) Separation , individually incrementing`
+- In all 3 phases : we always increment by `+2` hops as we keep ourselve at original nodes , and all 3 are necessary 
+- Do : https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
+  
 ## REVERSE NODES IN K-GROUP
 - never forget getting count of nodes in LL , first be sure about k count of nodes then reverse and take gpstart , groupprev ptrs as well !
 - do :https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=problem-list-v2&envId=rr2ss0g5
