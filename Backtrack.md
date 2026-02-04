@@ -10,6 +10,12 @@
 - sc = O(N) recursion stack  
 - DO : https://leetcode.com/problems/combination-sum-ii/?envType=problem-list-v2&envId=rr2ss0g5
 
+# COMBINATION0-SUM4 
+- Here all permuations are to be considered so taking {1,2} , {2,1} are considered different so the same set with different permuation can be considered
+- `so iterate from start of nums every time` , TC : O()
+- Do: https://leetcode.com/problems/combination-sum-iv/
+
+
 # GENERATE PARENTHESIS
 - nth Catalan Number {1/(n+1) (2n)C(n)}-> All valid parenthesis, where open - closing parenthesis constraint is followed, as we can't blindly generate all permutation eg ))(( are invalids .
 - TC = `O(4^n / sqrt(n))` -> because catalan nos grows -> `4^n / n*sqrt(n)  * O(n)` for `copying string` so simplies to-> 4^n / sqrt(n) ,you can say `O(4^n * n)` in interview as well for loose bound
