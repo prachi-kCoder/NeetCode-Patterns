@@ -47,3 +47,8 @@
 
 # edit distance;
 - 1d pass , {single pass !} varations : https://leetcode.com/problems/edit-distance/submissions/1902002337/?envType=problem-list-v2&envId=rr2ss0g5
+
+
+# BURST-BALLONS 
+- keep in mind , `PADDING+1 both sider` , len =1 so loop start hoga , `if kth the last balloon in [i,j]` so `curr_val = nums[i-1] * nums[k] * nums[j+1]` 
+- https://leetcode.com/problems/burst-balloons/submissions/1909223342/
