@@ -37,6 +37,8 @@
 - just keep in mind starting , memo based on idx, jump magnitude as they can overreach 2000 as, at any index +1 is max increse in jump so , jump mag won't every exceed 2000
 - dO : https://leetcode.com/problems/frog-jump/submissions/1907485778/
 
+# decode ways
+- single dp :https://leetcode.com/problems/decode-ways/submissions/1908909483/?envType=problem-list-v2&envId=rr2ss0g5
 
 # SUBSET Array to get diff from 2 subset partioning types
 - s1 - s2 = diff , so s1 + s2 = total_sum , so s1= target = (total_sum - diff)/2 ;
