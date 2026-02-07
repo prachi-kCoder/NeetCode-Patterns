@@ -18,5 +18,7 @@
 
 
 # 4) and/or properties
+- `keep in mind: ` for any differing bit {0->1} on high bit index , all the bit on its right must have been flipped atleast once !! 
 - https://leetcode.com/problems/bitwise-and-of-numbers-range/
+  
 - https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/
