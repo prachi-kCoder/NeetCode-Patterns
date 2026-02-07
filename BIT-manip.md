@@ -21,3 +21,12 @@
 - `keep in mind: ` for any differing bit {0->1} on high bit index , all the bit on its right must have been flipped atleast once !! 
 - https://leetcode.com/problems/bitwise-and-of-numbers-range/
 - https:https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/
+
+# --------------------------
+- `IMPORTANT ONES `:
+- 1) :https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
+- 2) https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
+  3) https://leetcode.com/problems/bitwise-ors-of-subarrays/description/
+  4) https://leetcode.com/problems/smallest-sufficient-team/
+  5) https://leetcode.com/problems/maximum-genetic-difference-query/
+  
