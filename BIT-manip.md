@@ -1,4 +1,13 @@
 
+# 1)Count Bits
+- https://leetcode.com/problems/sum-of-all-subset-xor-totals/
+- https://leetcode.com/problems/total-hamming-distance/
+
+# 2) State masking
+- https://leetcode.com/problems/subsets/
+- https://leetcode.com/problems/beautiful-arrangement/
+
+# 3) counting 
 # xor of valus in [L,R] :
 - use property (1-r)^(1-(l-1))  keeping the xor of values in range[L,R]
 - https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
@@ -6,3 +15,8 @@
 
 - `SINGLE NUM2` :https://leetcode.com/problems/single-number-ii/
 - `SINGLE NUM3` :https://leetcode.com/problems/single-number-iii/description/
+
+
+# 4) and/or properties
+- https://leetcode.com/problems/bitwise-and-of-numbers-range/
+- https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/
