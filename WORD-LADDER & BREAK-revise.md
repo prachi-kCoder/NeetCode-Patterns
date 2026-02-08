@@ -10,5 +10,7 @@
 
 
 # WORD BREAK
+- Make use of maxLen of beginWord , not more that 10 in this , O(N^2 * k) k->substring formation , don't go beyond the maxlen , O(N) sc 
+- DP :https://leetcode.com/problems/word-break/submissions/1912725781/?envType=problem-list-v2&envId=rr2ss0g5
 
 # WORD BREAK II
