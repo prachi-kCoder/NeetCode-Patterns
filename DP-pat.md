@@ -21,6 +21,8 @@
 - method1 : `n - LPS(s)` ,  method2 = `LCS(s , reverse(s))` : tc : O(N^2) , sc = O(N) for both 
 - DO : https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/
 
+- `PALINDROME PATITIONING` : https://leetcode.com/problems/palindrome-partitioning/submissions/1875067053/?envType=problem-list-v2&envId=rr2ss0g5
+- TC =  `O(N * 2^N)` as O(N) string copying time for all partitions , for every n length n-1 cuts / partitions possible 
 ####  STRANGE-PRINTER : 
 - Here match the first char s[i] to any other in s[i+1 to j] so that you don't need to pay for the front character , and worst case is if not matched so pay  + 1 + dp[i+1][j] 
 - https://leetcode.com/problems/strange-printer/
