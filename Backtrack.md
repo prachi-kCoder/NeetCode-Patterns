@@ -23,7 +23,7 @@
 - SC = O(n) , recu stack depht O(2N) 
 
 # SUDOKU SOLVER
-- You always forget : 3 rows for row,col,box : to keep the mask of rows,cols,boxes separate !
+- You always forget : 3 rows for row,col,box : to keep the mask of rows,cols,boxes separate ! ,` // JUST SIMPLY ITERATE OVER THE BOARD AND CHECK FOR VALIDATION OF EVERY CELL !, IF ANY CONTRADICTION , THEN INVALID OTHERWISE VALID  , no rec / backtracking is needed !`
 - Do :https://leetcode.com/problems/valid-sudoku/?envType=problem-list-v2&envId=rr2ss0g5
 - TC : O(9x9) , SC = O(27) nearly constant space for bitmasks .
 
