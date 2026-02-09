@@ -1,3 +1,7 @@
+# BINARY LONG DIVISION
+- {WITHOUT USING / , * , % ..} TC = O(log^2(N)) , SC O(1)
+- https://leetcode.com/problems/divide-two-integers/submissions/1913123523/
+
 
 # 1)Count Bits
 - https://leetcode.com/problems/sum-of-all-subset-xor-totals/
@@ -21,6 +25,7 @@
 - `keep in mind: ` for any differing bit {0->1} on high bit index , all the bit on its right must have been flipped atleast once !! 
 - https://leetcode.com/problems/bitwise-and-of-numbers-range/
 - https:https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/
+
 
 # --------------------------
 - `IMPORTANT ONES `:
