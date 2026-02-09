@@ -6,7 +6,7 @@
 
 
 # COMBINATION SUM2 
-- tc = (2^N) as any element can atmost be taken at once , incluce / exclude so comb for n elements : `2 x 2 x 2 x ....`
+- tc = (2^N * K) as any element can atmost be taken at once , incluce / exclude so comb for n elements : `2 x 2 x 2 x ....` , for K->Avg length to be copied in result
 - sc = O(N) recursion stack  
 - DO : https://leetcode.com/problems/combination-sum-ii/?envType=problem-list-v2&envId=rr2ss0g5
 
