@@ -15,7 +15,6 @@
 - `so iterate from start of nums every time` , TC : O(N * T) as DP , iterates all N element for T target , SC = O(T)
 - Do: https://leetcode.com/problems/combination-sum-iv/
 
-
 # GENERATE PARENTHESIS
 - nth Catalan Number {1/(n+1) (2n)C(n)}-> All valid parenthesis, where open - closing parenthesis constraint is followed, as we can't blindly generate all permutation eg ))(( are invalids .
 - TC = `O(4^n / sqrt(n))` -> because catalan nos grows -> `4^n / n*sqrt(n)  * O(n)` for `copying string` so simplies to-> 4^n / sqrt(n) ,you can say `O(4^n * n)` in interview as well for loose bound
