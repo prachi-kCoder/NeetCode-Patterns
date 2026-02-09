@@ -32,7 +32,7 @@
 - Do : https://leetcode.com/problems/permutations/?envType=problem-list-v2&envId=rr2ss0g5
 
 # N-QUEENS 
-- left_dia , right_dia  masks to be managed rightly 
+- left_dia , right_dia  masks to be managed rightly , TC = O(N! x N^2) as Braching factor of state space tree is O(N!) whereas N^2 is for copying the solutions. which happens when base case hit , as solution gen {which is till n <= 9 is  small constant} .
 - dO :https://leetcode.com/problems/n-queens/submissions/1904468182/?envType=problem-list-v2&envId=rr2ss0g5
   
 # LETTER-COMBINATIONS
