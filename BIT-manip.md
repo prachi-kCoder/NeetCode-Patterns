@@ -1,5 +1,5 @@
 # BINARY LONG DIVISION
-- {WITHOUT USING / , * , % ..} TC = O(log^2(N)) , SC O(1)
+- {WITHOUT USING / , * , % ..} TC = O(LOG(DIVIDEND)) , SC O(1)
 - https://leetcode.com/problems/divide-two-integers/submissions/1913123523/
 
 
