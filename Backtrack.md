@@ -12,7 +12,7 @@
 
 # COMBINATION0-SUM4 
 - Here all permuations are to be considered so taking {1,2} , {2,1} are considered different so the same set with different permuation can be considered
-- `so iterate from start of nums every time` , TC : O()
+- `so iterate from start of nums every time` , TC : O(N * T) as DP , iterates all N element for T target , SC = O(T)
 - Do: https://leetcode.com/problems/combination-sum-iv/
 
 
