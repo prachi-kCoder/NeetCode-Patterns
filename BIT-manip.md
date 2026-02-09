@@ -28,6 +28,7 @@
 - 
 - `OR SUBARRAYS` : shows monotonic property of subarray or's , as it keeps on increasing , at max N element can increase by all 32 bits ! O(N x 32)
 - Do : https://leetcode.com/problems/bitwise-ors-of-subarrays/
+- `all subset summed !` : https://www.geeksforgeeks.org/problems/sum-of-xor-of-all-possible-subsets/1
 
 # --------------------------
 - `IMPORTANT ONES `:
