@@ -1,6 +1,8 @@
 # REVERSE - WORDS IN A STRING
 - DO :https://leetcode.com/problems/reverse-words-in-a-string/
 
+# postfix exp eval 
+- do it without stack : O(1) extra space : do: https://leetcode.com/problems/evaluate-reverse-polish-notation/?envType=problem-list-v2&envId=rr2ss0g5
 -----------------------------------------------------------------------------------
 - `in this substring needed so matched updateed from both end as fixed len window with match cnt was need`
 # SLIDING WINDOW :
