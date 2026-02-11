@@ -2,6 +2,10 @@
 - look for all variation in microsoft repo , `staircase ques`, `without any row-wise sorting` , `flattened array variations` all !
 - Do :https://leetcode.com/problems/search-a-2d-matrix/?envType=problem-list-v2&envId=rr2ss0g5
 
+# FIND MIN IN ROTATED-SORTED ARRAY 
+- Compare `nums[min] with nums[high]` to know the part is rotated or not, or where the minima lies
+- Do:https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?envType=problem-list-v2&envId=rr2ss0g5
+
 # Rotate array :
 - `gcd is determined that within n elements when with the cycle of k rotation ends` and just move elements for all si = [0,cycles)
 - `REVERSE LOGIC IS EASY -> REVERSE 3 TIME SIMPLE , GET LASTk, REVERSE OR RESTORE THE ORDER OF ELEMENTS`
