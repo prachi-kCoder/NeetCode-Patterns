@@ -19,3 +19,8 @@
 
 # Minimise the subarray sum maxima's
 - its known to you O(N * LOG(N)) : https://leetcode.com/problems/split-array-largest-sum/submissions/1914765315/
+
+
+# max_prod_subarray - not the binary search quers
+- Kadane's prefix-suffix trick to get the max_sub_prod , to incorporate the exclude case of any element !
+- Do :https://leetcode.com/problems/maximum-product-subarray/submissions/1915737766/?envType=problem-list-v2&envId=rr2ss0g5
