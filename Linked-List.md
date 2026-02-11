@@ -1,3 +1,7 @@
+## REORGER LL
+- We can keep the mid 2 nodes as it is so slow->next and onwards reversed : {REVERSE THE SEC 1/2 , DISCONNECT THEM , INTERWEAVE !}
+- Do :https://leetcode.com/problems/reorder-list/submissions/1915649750/?envType=problem-list-v2&envId=rr2ss0g5
+  
 ## CLONE LL
 - 3PHASE IMPLEMENTATION :
 - `1) clone creation & weave` , `2) random pts connection {it can also point backward so need to be done once LL formed}`, `3) Separation , individually incrementing`
