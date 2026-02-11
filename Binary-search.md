@@ -22,5 +22,5 @@
 
 
 # max_prod_subarray - not the binary search quers
-- Kadane's prefix-suffix trick to get the max_sub_prod , to incorporate the exclude case of any element !
+- consider `0`->seg- separators , and for a seg of odd neg nos , we can either take prefix {excluding the last neg no.} or suffix {excluding the first neg no.} -> prefix,suff prod is enough to handle .
 - Do :https://leetcode.com/problems/maximum-product-subarray/submissions/1915737766/?envType=problem-list-v2&envId=rr2ss0g5
