@@ -23,3 +23,7 @@
 # Remove nth node from end:
 - use fast-slow ptr technique
 - Do : https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1902839402/?envType=problem-list-v2&envId=rr2ss0g5
+
+# HappyNumber 
+- O(N) slow,fast cycle detection
+- Do :https://leetcode.com/problems/happy-number/submissions/1916908728/?envType=problem-list-v2&envId=rr2ss0g5
