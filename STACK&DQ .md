@@ -1,5 +1,5 @@
 # VALID PARENTHESIS WITH *
-- Just don't make this complicated ! 
+- Just keep a range of min-max opening parenthesis range of cnt {mnOpen = only `(` and `*` & `)` -> are closing ones} , {mxOpen = {`)` , `*`} , `(` are is closing only} 
 - Do : https://leetcode.com/problems/valid-parenthesis-string/?envType=problem-list-v2&envId=rr2ss0g5
 
 # Stack & DQ
