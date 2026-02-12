@@ -24,14 +24,15 @@ struct DSU {
             if (x == par[x]) return x;
             return par[x] = find(par[x]);
         }
-        void unite(int u, int v) {
+        bool unite(int u, int v) {
             u = find(u);
             v = find(v);
-            if (u != v) {
-                if (ranks[u] < ranks[v]) swap(u, v);
-                par[v] = u;
-                if (ranks[u] == ranks[v]) ranks[u]++;
-            }
+
+            if (u == v) return false ;
+            if (ranks[u] < ranks[v]) swap(u, v);
+            par[v] = u ;
+            if (ranks[u] == ranks[v]) ranks[u]++;
+            return true ;
         }
     };
 ```
