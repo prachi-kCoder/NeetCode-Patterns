@@ -6,6 +6,7 @@
 # 1)Count Bits
 - https://leetcode.com/problems/sum-of-all-subset-xor-totals/
 - https://leetcode.com/problems/total-hamming-distance/
+- https://leetcode.com/problems/reverse-bits/?envType=problem-list-v2&envId=rr2ss0g5
 
 # 2) State masking
 - https://leetcode.com/problems/subsets/
