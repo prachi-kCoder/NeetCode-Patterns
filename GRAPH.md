@@ -2,6 +2,10 @@
 # CLONE GRAPH
 - Do : https://leetcode.com/problems/clone-graph/?envType=problem-list-v2&envId=rr2ss0g5
 - Tc = O(N), SC = O(N) map
+
+# prims's apply !
+- MIN COST TO CONNECT PTS : {Apply `PRIM's modified` more efficient version as DENSE GRAPH{ E = V^2} , SC = O(V) } 
+- Do:https://leetcode.com/problems/min-cost-to-connect-all-points/submissions/1916853479/?envType=problem-list-v2&envId=rr2ss0g5
   
 ## DSU IN grid :
 - Most stones removed :
