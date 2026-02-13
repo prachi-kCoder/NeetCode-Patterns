@@ -18,3 +18,7 @@
 
 # Word ladder II
 - Do : https://leetcode.com/problems/word-ladder-ii/description/
+
+# WORD-SEARCH II
+- TC = O(NXM x 3^NXM ) , SC = O(NXM)
+- DO: https://leetcode.com/problems/word-search-ii/?envType=problem-list-v2&envId=rr2ss0g5
