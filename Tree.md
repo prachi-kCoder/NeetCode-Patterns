@@ -1,6 +1,6 @@
 # Kth Smallest element in BST 
-- `ITERATIVE IS Recursion stack , 1) while (left) , 2) Process curr-stk.top() , 3) Go right  ` ,
-- O(H + k) for skewes tree O(N) as we go deep in Left subtree 
+- `ITERATIVE STACK` : 1) GO LEFT `while(node->left)` , 2) Process curr and --k , move right (if needed) , repeat the same !
+-  O(H + K) first left morst is traversed the curr upto K nodes starts , O(N) in skewed trees 
 - dO : https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/?envType=problem-list-v2&envId=rr2ss0g5
   
 # VALIDATE BST 
