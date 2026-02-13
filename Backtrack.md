@@ -33,7 +33,11 @@
 # N-QUEENS 
 - left_dia , right_dia  masks to be managed rightly , TC = O(N! x N^2) as Braching factor of state space tree is O(N!) whereas N^2 is for copying the solutions. which happens when base case hit , as solution gen {which is till n <= 9 is  small constant} .
 - dO :https://leetcode.com/problems/n-queens/submissions/1904468182/?envType=problem-list-v2&envId=rr2ss0g5
-  
+
+
+# Matchstick to sq :
+- ALL pruning , `desc sort , prev same placement , best fit , empty placement applied` ! , O(4^N) tc , O(N) sc
+- DO:https://leetcode.com/problems/matchsticks-to-square/submissions/1917671554/
 # LETTER-COMBINATIONS
 - TC = O(3^N x 4^m x L) where N+M = L length of digits , 3/4 choices & all comb: `3^n + 4^m x O(L)` O(L)-> string copying in result for all combination
 - SC= O(N)
