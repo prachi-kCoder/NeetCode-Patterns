@@ -10,3 +10,7 @@
 # Binary tree from preorder & inorder 
 - Taking preIndex as `global` and `inorder idx map` is the right approach!
 - Do : https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/1909052927/?envType=problem-list-v2&envId=rr2ss0g5
+
+# Invert btree
+- donot swap values or any level order, `reversively swap b/w the left & right subtrees`
+- Do: https://leetcode.com/problems/invert-binary-tree/description/?envType=problem-list-v2&envId=rr2ss0g5
