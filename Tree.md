@@ -1,3 +1,7 @@
+# Kth Smallest element in BST 
+- `ITERATIVE IS Recursion stack , 1) while (left) , 2) Process curr-stk.top() , 3) Go right  ` , O(K)
+- dO : https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/?envType=problem-list-v2&envId=rr2ss0g5
+  
 # VALIDATE BST 
 - Keep the range , but not using the INT_MIN OR INT_MAX this will cause INTEGER OVERFLOW , keep `min_node` , `max_node` that will even handle the case if the root have int_min, int_max values
 - Do : https://leetcode.com/problems/validate-binary-search-tree/submissions/1909021004/?envType=problem-list-v2&envId=rr2ss0g5
