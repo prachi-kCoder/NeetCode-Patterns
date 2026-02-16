@@ -13,3 +13,6 @@
 - `here target is atleast to be maintained as soon as a found reached we left compress till we don't lose the cnt of any essential target char`
 - do: https://leetcode.com/problems/largest-rectangle-in-histogram/submissions/1907860027/?envType=problem-list-v2&envId=rr2ss0g5
 -------------------------------------------------------------------------------------------------------
+
+# Encode and DEcode Strings
+Do :https://www.geeksforgeeks.org/problems/encode-and-decode-strings/1
