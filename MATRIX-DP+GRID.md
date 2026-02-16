@@ -38,3 +38,8 @@
 # 0-1 BFS :
 - can use djiktra but on o,1 cost tradeoff use deq , with LOWER COST entry at front and high cost at back, , get O(V + E) tc where V = NXM, e-> 4 for each . and every cell is visited at once and low cost , monotonic dq keep sorted entries as per cost , as any cel can have a diff of at most x , x+1 so 0/1 entry is enough! 
 - https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/
+
+
+# MEETING ROOMS :
+- 1 was basic and meeting rooms 2 is optimise sweepline with start& end sorted and 2 ptr
+- approach:do : https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/0
