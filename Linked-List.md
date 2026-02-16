@@ -1,4 +1,9 @@
-## REORGER LL
+# LRU & LFU ARE DIFFERENT 
+- no freq param, no freq_map or update freq in LRU : Do:https://leetcode.com/problems/lru-cache/submissions/1921416802/
+- LFU has freq_mp: https://www.geeksforgeeks.org/problems/lfu-cache-1665050355/1
+  - O(1) avg time
+
+## REORDER LL
 - We can keep the mid 2 nodes as it is so slow->next and onwards reversed : {REVERSE THE SEC 1/2 , DISCONNECT THEM , INTERWEAVE !}
 - Do :https://leetcode.com/problems/reorder-list/submissions/1915649750/?envType=problem-list-v2&envId=rr2ss0g5
   
