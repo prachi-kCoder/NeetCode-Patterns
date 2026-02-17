@@ -1,6 +1,12 @@
 # REVERSE - WORDS IN A STRING
 - DO :https://leetcode.com/problems/reverse-words-in-a-string/
 
+# Encode and DEcode Strings
+- DON'T JUST stick is delimiter use :`{length , '#' , string_content}` use this compeletecan be any ASCII character before
+- Do :https://www.geeksforgeeks.org/problems/encode-and-decode-strings/1
+- TC = O(M) M-> length of encoded strings M =  N*L {no of string}* avg len
+
+
 # postfix exp eval 
 - do it without stack : O(1) extra space : do: https://leetcode.com/problems/evaluate-reverse-polish-notation/?envType=problem-list-v2&envId=rr2ss0g5
 -----------------------------------------------------------------------------------
@@ -14,5 +20,3 @@
 - do: https://leetcode.com/problems/largest-rectangle-in-histogram/submissions/1907860027/?envType=problem-list-v2&envId=rr2ss0g5
 -------------------------------------------------------------------------------------------------------
 
-# Encode and DEcode Strings
-Do :https://www.geeksforgeeks.org/problems/encode-and-decode-strings/1
