@@ -1,3 +1,9 @@
+# CHEAPEST FLIGHTS WITHIN K STOPS {revise once again!}
+
+- Keep in mind stop wise BFS , either maintain curr & next_dist array and relax all edges -> bellman ford algo
+- or if 1 dist array then `never eliminate stale entry even in STOPWISE /LEVELWISE BFS` as all nodes should relax all other nodes if possible
+- O(K * E) all edges in K levels are to be relaxed! : https://leetcode.com/problems/cheapest-flights-within-k-stops/description/?envType=problem-list-v2&envId=rr2ss0g5
+
 
 # CLONE GRAPH
 - Do : https://leetcode.com/problems/clone-graph/?envType=problem-list-v2&envId=rr2ss0g5
