@@ -1,3 +1,8 @@
+# KOKO-EATING-BANANA
+- we wnat `minspeed` low : 1 is right {as we are' sayign if h > n so she can be slower so min goes down}  , high = max(nums) {as from any piles he can at max eat all and in next hr koko move to next pile!} 
+- dO: https://leetcode.com/problems/koko-eating-bananas/description/?envType=problem-list-v2&envId=rr2ss0g5
+
+
 # BINARY-SEARCH
 - look for all variation in microsoft repo , `staircase ques`, `without any row-wise sorting` , `flattened array variations` all !
 - Do :https://leetcode.com/problems/search-a-2d-matrix/?envType=problem-list-v2&envId=rr2ss0g5
