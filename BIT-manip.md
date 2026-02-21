@@ -1,7 +1,10 @@
+# SUM 2 INTERGERS {without +}
+- SUM with `a^b` ,  Carry = `a & b` , keep taking the carry value , as it must be propagated till it reaches 0
+- O(32) as at most carry value will propagate to all 32 bit pos {if range is 64 then O(64)}
+  
 # BINARY LONG DIVISION
 - {WITHOUT USING / , * , % ..} TC = O(LOG(DIVIDEND)) , SC O(1)
 - https://leetcode.com/problems/divide-two-integers/submissions/1913123523/
-
 
 # 1)Count Bits
 - https://leetcode.com/problems/sum-of-all-subset-xor-totals/
