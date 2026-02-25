@@ -17,3 +17,9 @@
 # GRID-PATHS (incresing path count)
 - TC = O(MXN) as it looks that 3^(NXM) but this is not backtracking , we're effectively visiting cells and its nbrs O(MxNx4) so MEMO
 - Do : https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/
+
+
+# src1,src2-dest :
+- 3 pass djiktra , from src1,src2-> to joining nodes , Dest to joining nodes
+- TC = `O((V + E)xlogV)` , or simply `O(E logV)` 
+- Do:https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/description/
