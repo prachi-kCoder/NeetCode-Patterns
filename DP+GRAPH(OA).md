@@ -14,3 +14,6 @@
 - Valid arr: https://leetcode.com/problems/valid-arrangement-of-pairs/description/
 
 
+# GRID-PATHS (incresing path count)
+- TC = O(MXN) as it looks that 3^(NXM) but this is not backtracking , we're effectively visiting cells and its nbrs O(MxNx4) so MEMO
+- Do : https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/
