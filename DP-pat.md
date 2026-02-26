@@ -6,6 +6,7 @@
 
 # JUMP-GAME 2
 - DON'T do this with dp as it take O(N^2) TC , O(N) space ,do it greedily as you found the range intuition!
+- Better version : https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/
 - Do :https://leetcode.com/problems/jump-game-ii/submissions/1904255386/?envType=problem-list-v2&envId=rr2ss0g5
 
 # coin-change2 
