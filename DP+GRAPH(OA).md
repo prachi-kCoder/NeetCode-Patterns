@@ -23,3 +23,6 @@
 - 3 pass djiktra , from src1,src2-> to joining nodes , Dest to joining nodes
 - TC = `O((V + E)xlogV)` , or simply `O(E logV)` 
 - Do:https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/description/
+
+# knapsack type hai bus bitset ke saath:
+- Do:https://leetcode.com/problems/maximum-total-reward-using-operations-ii/description/
