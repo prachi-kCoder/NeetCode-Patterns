@@ -28,3 +28,6 @@
 - TC : O(NLOGN  + N * max_total_reward/w) as (bitset is 64 bit integer words w->word size)
 - Do:https://leetcode.com/problems/maximum-total-reward-using-operations-ii/description/
 
+
+# Reach last row
+-DO : https://leetcode.com/problems/last-day-where-you-can-still-cross/
