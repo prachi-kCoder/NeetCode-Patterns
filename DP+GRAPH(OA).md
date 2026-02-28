@@ -29,5 +29,5 @@
 - Do:https://leetcode.com/problems/maximum-total-reward-using-operations-ii/description/
 
 
-# Reach last row
+# Reach last row {BFS & BinarySeach / DSU}
 -DO : https://leetcode.com/problems/last-day-where-you-can-still-cross/
