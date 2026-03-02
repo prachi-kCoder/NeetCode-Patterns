@@ -5,7 +5,9 @@
  # IPO :
  - Halwa ques hai! -> `pure profit is given !` , O(NLOGN) : sorting + pq
  - dO: https://leetcode.com/problems/ipo/description/
- 
+
+# MAX-ELEGANCE
+- Swap b/w topK categories duplcates and rest of values : https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/description/
 # min-transaction ;
 - cred-debit simplify the transaction value!
 - https://www.geeksforgeeks.org/problems/minimize-cash-flow/1
