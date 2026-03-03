@@ -28,6 +28,11 @@
 - TC : O(NLOGN  + N * max_total_reward/w) as (bitset is 64 bit integer words w->word size)
 - Do:https://leetcode.com/problems/maximum-total-reward-using-operations-ii/description/
 
+# max_delay , fire spread
+- bfs + b_search {handle edge_Cases very import : can't reach, always reach separately }
+- https://leetcode.com/problems/escape-the-spreading-fire/description/
+
 
 # Reach last row {BFS & BinarySeach / DSU}
 -DO : https://leetcode.com/problems/last-day-where-you-can-still-cross/
+
