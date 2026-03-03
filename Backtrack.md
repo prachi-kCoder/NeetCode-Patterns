@@ -35,6 +35,10 @@
 - dO :https://leetcode.com/problems/n-queens/submissions/1904468182/?envType=problem-list-v2&envId=rr2ss0g5
 
 
+# TILLING SQ :
+- ht_array for every col and prune it ,TC=  O(S^K) S->braching factor min(N,M) for diff sq length = sum of all sq lengths and k->max recusion depth
+- DO :https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/submissions/1936325050/
+
 # Matchstick to sq :
 - ALL pruning , `desc sort , prev same placement , best fit , empty placement applied` ! , O(4^N) tc , O(N) sc
 - DO:https://leetcode.com/problems/matchsticks-to-square/submissions/1917671554/
