@@ -14,3 +14,6 @@
 - Do :https://leetcode.com/problems/kth-largest-element-in-an-array/description/?envType=problem-list-v2&envId=rr2ss0g5
 -  For BEST& AVG cases : Pivot partition the array in balanced way so O(N) , whereas in Worst case if min-max take as pivot -> partitions are unbalanced giving O(N^2)
 
+# subarray-sum-divbyK
+- 3pts :`neg rem handling r += k` , `Zero rem : mp[0] = 1` crucial and its all on prefix sum of arrays!
+- Do:https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
