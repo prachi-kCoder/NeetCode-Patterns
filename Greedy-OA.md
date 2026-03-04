@@ -11,3 +11,8 @@
 # min-transaction ;
 - cred-debit simplify the transaction value!
 - https://www.geeksforgeeks.org/problems/minimize-cash-flow/1
+
+
+# Mini Interval-to-include 
+- `LAZY QUERY PROCESSING` , `SORT queries` 
+- Do :https://leetcode.com/problems/minimum-interval-to-include-each-query/description/?envType=problem-list-v2&envId=rr2ss0g5
