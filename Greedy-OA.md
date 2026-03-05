@@ -16,3 +16,5 @@
 # Mini Interval-to-include 
 - `LAZY QUERY PROCESSING` , `SORT queries` 
 - Do :https://leetcode.com/problems/minimum-interval-to-include-each-query/description/?envType=problem-list-v2&envId=rr2ss0g5
+- Flowers - Difference array{start time and endtimes the diff {leverage bsearch to get cnt !}}: O(MlogM + NlogN)
+-  https://leetcode.com/problems/number-of-flowers-in-full-bloom/submissions/1938214995/
