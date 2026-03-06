@@ -12,7 +12,11 @@
 # coin-change2 
 - Here take all set , all combinations was need so NO sorting but in case permutation would have been asked so sorting become imp !
 - Do:https://leetcode.com/problems/coin-change-ii/?envType=problem-list-v2&envId=rr2ss0g5
-  
+
+------------------------------------------------------------------------
+# Kadane'application {dp}
+- do: https://leetcode.com/problems/substring-with-largest-variance/
+- Do :https://leetcode.com/problems/maximum-score-of-spliced-array/
 ------------------------------------------------------------------------------------------------------------------------------
 # STRIVER DP - STRING :
 ### STRING - DP
