@@ -13,6 +13,8 @@
 - Here take all set , all combinations was need so NO sorting but in case permutation would have been asked so sorting become imp !
 - Do:https://leetcode.com/problems/coin-change-ii/?envType=problem-list-v2&envId=rr2ss0g5
 
+# dice comb
+- Tab: https://www.geeksforgeeks.org/problems/dice-throw5349/1
 ------------------------------------------------------------------------
 # Kadane'application {dp}
 - do: https://leetcode.com/problems/substring-with-largest-variance/
