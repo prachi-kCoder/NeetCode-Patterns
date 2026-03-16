@@ -10,6 +10,8 @@
 - Make use of maxLen of beginWord , not more that 10 in this , O(N^2 * k) k->substring formation , don't go beyond the maxlen , O(N) sc 
 - DP :https://leetcode.com/problems/word-break/submissions/1912725781/?envType=problem-list-v2&envId=rr2ss0g5
 
+# ConcatedNates Words
+- do : https://leetcode.com/problems/word-break-ii/description/
 
 # Word ladder from begin -> endword 
 `{min shortest path variation}`  : O(N * L*L * 26) ,{L^2 is for mutation then insert/hash in nextlevel !} sc = O(N) for head and tail , wordset  
