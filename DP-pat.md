@@ -20,6 +20,10 @@
 - do: https://leetcode.com/problems/substring-with-largest-variance/
 - Do :https://leetcode.com/problems/maximum-score-of-spliced-array/
 ------------------------------------------------------------------------------------------------------------------------------
+
+# Intervaldp;
+- https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/
+
 # STRIVER DP - STRING :
 ### STRING - DP
 - `LONGEST PALINDROMIC SUBSEQ` : do : https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1906597968/
