@@ -28,7 +28,6 @@
 # 4) and/or properties
 - `keep in mind: ` for any differing bit {0->1} on high bit index , all the bit on its right must have been flipped atleast once !! 
 - https://leetcode.com/problems/bitwise-and-of-numbers-range/
-- https:https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/
 - 
 - `OR SUBARRAYS` : shows monotonic property of subarray or's , as it keeps on increasing , at max N element can increase by all 32 bits ! O(N x 32)
 - Do : https://leetcode.com/problems/bitwise-ors-of-subarrays/
