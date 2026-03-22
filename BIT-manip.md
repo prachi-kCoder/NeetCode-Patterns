@@ -6,6 +6,14 @@
 - {WITHOUT USING / , * , % ..} TC = O(LOG(DIVIDEND)) , SC O(1)
 - https://leetcode.com/problems/divide-two-integers/submissions/1913123523/
 
+# most important array-> subarray , subset 
+- SUBARRAY : `P[R] ^ P[L-1]` we do it with O(N^2) subarray , but rather we can do it `TRIE` insert prefix xor in trie , & utilise get_max to get max_xor : https://cses.fi/problemset/task/3191
+- SUBSET :
+
+
+
+
+
 # 1)Count Bits
 - https://leetcode.com/problems/sum-of-all-subset-xor-totals/
 - https://leetcode.com/problems/total-hamming-distance/
