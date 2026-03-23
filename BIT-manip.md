@@ -10,9 +10,7 @@
 :-https://cses.fi/problemset/task/1655
 - DONOT FORGET TO INIT TRIE WITH `0` ele as every bit should have atleast 1 of the bits initialised 
 - SUBARRAY : `P[R] ^ P[L-1]` we do it with O(N^2) subarray , but rather we can do it `TRIE` insert prefix xor in trie , & utilise get_max to get max_xor : https://cses.fi/problemset/task/3191
-- SUBSET :
-
-
+- MEET-IN-THE-MID :https://leetcode.com/problems/closest-subsequence-sum/description/
 
 
 
