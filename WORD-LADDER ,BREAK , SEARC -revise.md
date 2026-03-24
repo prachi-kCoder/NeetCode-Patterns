@@ -11,7 +11,7 @@
 - DP :https://leetcode.com/problems/word-break/submissions/1912725781/?envType=problem-list-v2&envId=rr2ss0g5
 
 # ConcatedNates Words
-- do : https://leetcode.com/problems/word-break-ii/description/
+- do : https://leetcode.com/problems/concatenated-words/
 
 # Word ladder from begin -> endword 
 `{min shortest path variation}`  : O(N * L*L * 26) ,{L^2 is for mutation then insert/hash in nextlevel !} sc = O(N) for head and tail , wordset  
