@@ -1,3 +1,29 @@
+- YOUR MISTAKE {handling getline stream , strlen(chArr) where chArr -> chArr}
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+	// your code goes here
+	char* s = "Prachi char_array" ;
+	string str = "Prachi string" ;
+	
+	int i = 0 ;
+	while (s[i] != '\0') {
+	    cout << s[i]  ;
+	    i++ ;
+	}
+	cout<< endl ;
+	
+	cout << "SIZE OF CHAR ARRY :" << strlen(s) << endl ;
+	cout << "SIZE OF str :" << str.size() << endl ;
+	
+	string input = "" ;
+	getline(cin , input) ; // with spaces !
+	cout << input << endl ;
+	
+	return  0 ;
+}
+```
 # REVERSE - WORDS IN A STRING
 - DO :https://leetcode.com/problems/reverse-words-in-a-string/
 
