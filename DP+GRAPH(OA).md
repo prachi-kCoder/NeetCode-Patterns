@@ -27,7 +27,8 @@
 # src1,src2-dest :
 - 3 pass djiktra , from src1,src2-> to joining nodes , Dest to joining nodes
 - TC = `O((V + E)xlogV)` , or simply `O(E logV)` 
-- Do:https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/description/
+-  Do:https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/description/
+-  2DFS pass {here tarjan fail as its a DAG }:https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/
 
 # knapsack type hai bus bitset ke saath:
 - TC : O(NLOGN  + N * max_total_reward/w) as (bitset is 64 bit integer words w->word size)
