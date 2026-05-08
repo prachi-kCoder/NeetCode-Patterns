@@ -1,9 +1,8 @@
 -- Keep revising 
 
 # WORD BREAK II
-- TC : `O(2^N-1 + N^3)` , SC = `O(2^N x N)`->memo dp ,
-- Total strings `2^N-1` ? s : `a_p_p_l_e`   then n-1 slots to cut/not : 2x2x2.. n-1 times so total strings formed 2^n-1
-- N^3 : for start {all ends iterated} , and for any [s,e] we do string slicing that itself take O(N)
+- TC : `O(2^N-1 * n   * m *L) ` , SC = `O(2^N x N)`->memo dp , 
+- DP optimisation by O(2*N-1) .
 - Do :https://leetcode.com/problems/word-break-ii/submissions/1912754458/
   
 # WORD BREAK
