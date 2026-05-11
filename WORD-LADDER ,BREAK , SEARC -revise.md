@@ -18,6 +18,7 @@
 - Do; https://leetcode.com/problems/word-ladder/submissions/1788948662/?envType=problem-list-v2&envId=rr2ss0g5 
 
 # Word ladder II
+- TC = O(N x L ^ 2  + K x L) where K = TOTAL NO. OF PATHS and Copying them take O(L) , using the adj child->par map !
 - Do : https://leetcode.com/problems/word-ladder-ii/description/
 
 # WORD-SEARCH II
