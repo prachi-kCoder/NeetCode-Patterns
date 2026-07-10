@@ -26,6 +26,9 @@
 # Intervaldp;
 - https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/
 
+# PATHSUM 
+- MIN falling pathsum = https://leetcode.com/problems/minimum-falling-path-sum-ii/submissions/2063199728/
+  
 # STRIVER DP - STRING :
 ### STRING - DP
 - `LONGEST PALINDROMIC SUBSEQ` : do : https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1906597968/
