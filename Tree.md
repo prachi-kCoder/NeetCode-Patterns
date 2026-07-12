@@ -1,6 +1,7 @@
 #  max path types but interesting a bit 
 -> https://leetcode.com/problems/longest-path-with-different-adjacent-characters/
--> can also try unicode tree same concept !  O(N)
+-> https://leetcode.com/problems/longest-univalue-path/
+same concept !  O(N)
 
 # Kth Smallest element in BST 
 - `ITERATIVE STACK` : 1) GO LEFT `while(node->left)` , 2) Process curr and --k , move right (if needed) , repeat the same !
