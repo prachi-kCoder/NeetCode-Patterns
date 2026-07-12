@@ -1,6 +1,12 @@
+## DP + Segment tree 
+-> {amaazing question!}
+-> https://atcoder.jp/contests/dp/tasks/dp_q
+
 ### 2D LIS
 - https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/description/
 - https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/
+
+
 
 # LCS VARIATION
 - `count DISTINCT SUBSEQ IN S = T` o(NxM) , optimise its for sc = O(N) space
