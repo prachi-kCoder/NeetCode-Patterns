@@ -5,7 +5,9 @@
 ### 2D LIS
 - https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/description/
 - https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/
-
+### COUNT PALI SUB 
+  > imporanta hai recureence iska {how to preventing ovrecounting with inclusion ans exclusion!}
+- > https://www.geeksforgeeks.org/problems/count-palindromic-subsequences/1
 
 
 # LCS VARIATION
