@@ -1,3 +1,7 @@
+# PATH SUM3 
+-> Most optimised way is to handle it via the prefix sum in tree :
+- https://leetcode.com/problems/path-sum-iii/description/
+
 #  max path types but interesting a bit 
 -> https://leetcode.com/problems/longest-path-with-different-adjacent-characters/
 -> https://leetcode.com/problems/longest-univalue-path/
