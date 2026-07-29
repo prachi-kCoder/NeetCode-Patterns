@@ -1,3 +1,10 @@
+# shortest subarray with sum atleast K 
+-> amazing ques:https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/ 
+-> Dono use kadane's as it , refreshing any neg prefix sum = 0 , may leads to testcase miss ,
+```cpp
+eg pre[i] = -10 and if refreshed to 0 but some j > i gave pre_sum = 5 then for k = 15 we won't cover pre[j] - pre[i] >= k
+```
+
 # VALID PARENTHESIS WITH *
 - Just keep a range of min-max opening parenthesis range of cnt {mnOpen = only `(` and `*` & `)` -> are closing ones} , {mxOpen = {`)` , `*`} , `(` are is closing only} 
 - Do : https://leetcode.com/problems/valid-parenthesis-string/?envType=problem-list-v2&envId=rr2ss0g5
