@@ -35,6 +35,8 @@
 # Intervaldp;
 - https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/
 
+# SUBSEQUENCE PATTERNS :
+-> cnt of LIS : https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/
 # PATHSUM 
 - MIN falling pathsum = https://leetcode.com/problems/minimum-falling-path-sum-ii/submissions/2063199728/
   
