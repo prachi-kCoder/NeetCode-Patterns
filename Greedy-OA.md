@@ -2,6 +2,11 @@
 -> { Task schdule of dur , and (s,e)}
 - hint :https://leetcode.com/problems/course-schedule-iii/description/
 
+# Mini Money Req Before :
+- {Intuiontion : Any way you will be paying all losses , and lossy last transaction {MAX CashBack + Loss of ti transaction{already taken}-> you may have already paid while starting up / Max Cost amount any profit tx -> you may pay anyway }
+- Link :https://leetcode.com/problems/minimum-money-required-before-transactions/
+
+
 # GREEDY-OA
 - `2PASS GREEDY is enough` as just L,R nbr are to be so start from left most having no left , rightmost having no right are right and keep up with constraints!
 - Here: https://leetcode.com/problems/candy/description/
