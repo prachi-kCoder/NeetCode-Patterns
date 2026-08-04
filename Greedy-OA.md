@@ -6,7 +6,6 @@
 - {Intuiontion : Any way you will be paying all losses , and lossy last transaction {MAX CashBack + Loss of ti transaction{already taken}-> you may have already paid while starting up / Max Cost amount any profit tx -> you may pay anyway }
 - Link :https://leetcode.com/problems/minimum-money-required-before-transactions/
 
-
 # GREEDY-OA
 - `2PASS GREEDY is enough` as just L,R nbr are to be so start from left most having no left , rightmost having no right are right and keep up with constraints!
 - Here: https://leetcode.com/problems/candy/description/
@@ -15,8 +14,11 @@
 - https://leetcode.com/problems/minimum-time-to-complete-all-tasks/description/
 
 ## EQUALIZE Array 
--> With every ith elemnt as per move we make changes to that array changing all element to reach a values !! 
+-> With every ith elemnt , can used now why not any other element outside nums may come out as global minima , but here think 
+-> SORTED ARR , then any ```x element num[i] , nums[i+1]  if any x  in this range so effective the range follows a CONSTANT FUNCTION so all element in that range will effective give the same no. of operation to transform as [12,28] let x from this range so SUM of (x-12) + (28-x) => 16 as net effect of x gets cannecelled out giving out a constant function at intersection !``` 
 - DO = https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/
+- Better DO :https://leetcode.com/problems/minimum-cost-to-make-array-equal/description/
+- {Hard one think of every individual element as a cluster of element of 1 operation cnt {with weighted cnt ! , hecen left_cnt becomes left_pref_sum and Right cnt become right suffix sum of COSTS }}
 
 ## MAX EVENTS TO ATTEND 
 -https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/description/
