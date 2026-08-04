@@ -13,7 +13,11 @@
 
 # Max tasks 
 - https://leetcode.com/problems/minimum-time-to-complete-all-tasks/description/
-  
+
+## EQUALIZE Array 
+-> With every ith elemnt as per move we make changes to that array changing all element to reach a values !! 
+- DO = https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/
+
 ## MAX EVENTS TO ATTEND 
 -https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/description/
 -{DON'T just think of early start / end time as both matter in case earlier end time may lead to events getting missed of those whose start < the start of event with earliest end eg [1,5][2,3][3,4][4,5]} -> here early end sorting leads to : [[2,3][3,4],[4,5],[1,5]] then you don't reallycount [1,5] but incorrect !!
