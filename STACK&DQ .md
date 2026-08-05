@@ -1,3 +1,8 @@
+## sliding window median
+->TAke multiset of elements and balance internal function to perform the task !
+-> d0 :https://leetcode.com/problems/sliding-window-median/description/
+
+
 # shortest subarray with sum atleast K 
 -> amazing ques:https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/ 
 -> Dono use kadane's as it , refreshing any neg prefix sum = 0 , may leads to testcase miss ,
