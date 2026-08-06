@@ -24,6 +24,12 @@ int main() {
 	return  0 ;
 }
 ```
+# Subarray with K different element / integers 
+-> `EXACTLY K = ATMOST K - ATMOST K-1` => simple intution!
+- using sliding window calculation for subarray with elements atmost k ending at any index i
+-> link :https://leetcode.com/problems/subarrays-with-k-different-integers/
+
+
 # REVERSE - WORDS IN A STRING
 - DO :https://leetcode.com/problems/reverse-words-in-a-string/
 
